@@ -44,6 +44,7 @@ export default function Generate() {
     const router = useRouter();
 
     const handleSubmit = async () => {
+
         console.log(text);
         const response = await fetch("api/generate", {
             method: "POST",
@@ -220,6 +221,7 @@ export default function Generate() {
                         Input your query to get concise answers. 
                         Quickly grasp and review key concepts with ease.
                     </Typography>
+
                 <Paper sx={{ p: 4, width: '100%', alignContent: 'center', color: 'white', backgroundColor: 'transparent' }}>
                     <TextField
                         value={text}
@@ -256,6 +258,19 @@ export default function Generate() {
                         Generate Flashcards
                     </Button>
                 </Paper>
+                <Typography
+                        variant='body1'
+                        sx={{
+                            textAlign: 'center', 
+                            marginBottom: '1.5rem', 
+                            fontWeight: '600', 
+                            color: '#000', 
+                            letterSpacing: '0.07em',
+                            fontFamily: 'veranda'
+                        }}
+                    >
+                        Please sign in to save your flashcards. After Generating, Scroll down to proceed with saving!
+                    </Typography>
 
             </Box>
             <br></br>

@@ -155,7 +155,7 @@ export default function Home() {
   variant="contained" 
   color="primary" 
   sx={{ 
-    fontSize: { xs: '2rem', sm: '1rem' },  // Responsive font size for different screens
+    fontSize: { xs: '1rem', sm: '1rem' },  // Responsive font size for different screens
     mt: 2,  // Margin top
     background: 'transparent',  // Gradient background
     borderRadius: '10px',  // Rounded corners
@@ -443,7 +443,7 @@ Never worry about losing your study materials again. FlashLearn allows you to ac
   variant="contained" 
   color="primary" 
   sx={{ 
-    fontSize: { xs: '2rem', sm: '1rem' },  // Responsive font size for different screens
+    fontSize: { xs: '1rem', sm: '1rem' },  // Responsive font size for different screens
     mt: 2,  // Margin top
     background: 'transparent',  // Gradient background
     borderRadius: '10px',  // Rounded corners
@@ -502,7 +502,7 @@ Never worry about losing your study materials again. FlashLearn allows you to ac
   variant="contained" 
   color="primary" 
   sx={{ 
-    fontSize: { xs: '2rem', sm: '1rem' },  // Responsive font size for different screens
+    fontSize: { xs: '1rem', sm: '1rem' },  // Responsive font size for different screens
     mt: 2,  // Margin top
     background: 'transparent',  // Gradient background
     borderRadius: '10px',  // Rounded corners
