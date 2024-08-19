@@ -9,7 +9,12 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { useRouter } from 'next/navigation';
 import BoltSharpIcon from '@mui/icons-material/BoltSharp';
+import Hotjar from '@hotjar/browser';
 
+const siteId = 5100229;
+const hotjarVersion = 6;
+
+Hotjar.init(siteId, hotjarVersion);
 export default function Home() {
   const darkTheme = createTheme({
     palette: {
