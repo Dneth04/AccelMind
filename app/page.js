@@ -63,7 +63,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Flashcard SaaS</title>
+        <title>AccelMind</title>
         <meta name="description" content="Create flashcards from your text" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
