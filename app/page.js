@@ -64,7 +64,7 @@ export default function Home() {
     <>
       <Head>
         <title>AccelMind</title>
-   <!-- Hotjar Tracking Code for Accel-Mind -->
+   // <!-- Hotjar Tracking Code for Accel-Mind -->
 <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
