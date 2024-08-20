@@ -2,6 +2,7 @@
 import { SignIn } from "@clerk/clerk-react";
 import { Toolbar, Typography,Button, Link, AppBar, Container,Box } from "@mui/material";
 import BoltSharpIcon from '@mui/icons-material/BoltSharp';
+import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 
 export default function SignUpPage( ){
     return <Container maxWidth="100vw">
