@@ -143,7 +143,7 @@ export default function Home() {
 <Typography 
   variant="body1" 
   sx={{ 
-    fontSize: { xs: '2.5rem', sm: '2rem' },  // Responsive font size for different screens
+    fontSize: { xs: '1.8rem', sm: '1.6rem' },  // Responsive font size for different screens
     fontWeight: '800',  // Extra bold font weight
     textAlign: 'center',  // Center alignment
     margin: '0 auto',  // Center the text block horizontally
@@ -163,7 +163,7 @@ export default function Home() {
   sx={{ 
     fontSize: { xs: '1rem', sm: '1rem' },  // Responsive font size for different screens
     mt: 2,  // Margin top
-    background: 'transparent',  // Gradient background
+    background: 'indigo', 
     borderRadius: '10px',  // Rounded corners
     padding: '10px 20px',  // Padding inside the button
     fontWeight: 'bold',  // Bold text
