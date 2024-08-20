@@ -283,7 +283,7 @@ export default function Generate() {
                alignItems: 'center', 
                margin: '0 auto',  
                borderRadius: '8px', 
-               backgroundColor: 'transparent', 
+               backgroundColor: 'indigo', 
                padding: '0.75rem 2rem',
                color: '#fff', 
                textTransform: 'none', 
